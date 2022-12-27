@@ -1,0 +1,37 @@
+{
+  "name": "vite-plugin-sitemap-generator",
+  "version": "1.0.1",
+  "description": "Generate sitemap for client site rendered web applications.",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "sitemap-generator",
+    "vite-sitemap",
+    "vite-plugin",
+    "vite-plugin-sitemap",
+    "vuejs-sitemap",
+    "reactjs-sitemap"
+  ],
+  "author": "Aryan Karim",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryankarim/vite-plugin-sitemap-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aryankarim/vite-plugin-sitemap-generator/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "branches": [
+      "main"
+    ]
+  },
+  "homepage": "https://github.com/aryankarim/vite-plugin-sitemap-generator",
+  "dependencies": {
+    "vite-plugin-pages-sitemap": "^1.4.5"
+  }
+}
