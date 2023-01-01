@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-sitemap-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate sitemap for client site rendered web applications.",
   "main": "src/index.js",
   "bin": "src/index.js",
