@@ -1,5 +1,5 @@
-declare function GenerateSitemapXml(config: {
-  routes: Array<{ route: string; path: string }>;
+declare function generateSitemapXml(config: {
+  routes: Array<{ name: string; path: string }>;
   hostname: string;
   otherConfig: any;
 }): {
@@ -7,4 +7,4 @@ declare function GenerateSitemapXml(config: {
   configResolved: Function;
 };
 
-export { GenerateSitemapXml };
+export { generateSitemapXml };

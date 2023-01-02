@@ -1,10 +1,13 @@
 import generateSitemap from "vite-plugin-pages-sitemap";
-import { GenerateSitemapXml } from "./index.d";
 
-export const generateSitemapXml: typeof GenerateSitemapXml = ({
+export const generateSitemapXml = ({
   routes,
   hostname,
   otherConfig,
+}: {
+  routes: Array<{ name: string; path: string }>;
+  hostname: string;
+  otherConfig: any;
 }) => ({
   name: "generate-sitemap",
   configResolved() {

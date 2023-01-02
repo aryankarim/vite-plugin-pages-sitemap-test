@@ -1,2 +1,11 @@
-import { GenerateSitemapXml } from "./index.d";
-export declare const generateSitemapXml: typeof GenerateSitemapXml;
+export declare const generateSitemapXml: ({ routes, hostname, otherConfig, }: {
+    routes: Array<{
+        name: string;
+        path: string;
+    }>;
+    hostname: string;
+    otherConfig: any;
+}) => {
+    name: string;
+    configResolved(): void;
+};
