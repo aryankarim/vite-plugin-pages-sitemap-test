@@ -2,7 +2,7 @@
   "name": "vite-plugin-sitemap-generator",
   "version": "1.0.3",
   "description": "Generate sitemap for client site rendered web applications.",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "/dist"
