@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-sitemap-generator",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Generate sitemap for client site rendered web applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,5 +33,8 @@
   "homepage": "https://github.com/aryankarim/vite-plugin-sitemap-generator",
   "dependencies": {
     "vite-plugin-pages-sitemap": "^1.4.5"
+  },
+  "devDependencies": {
+    "@types/vue-router": "^2.0.0"
   }
 }

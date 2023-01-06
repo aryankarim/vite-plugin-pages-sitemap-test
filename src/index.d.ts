@@ -1,7 +1,9 @@
+import { RouteRecordRaw } from "vue-router";
+
 declare function generateSitemapXml(config: {
-  routes: Array<{ name: string; path: string }>;
+  routes: Array<RouteRecordRaw>;
   hostname: string;
-  otherConfig: any;
+  otherConfig?: any;
 }): {
   name: string;
   configResolved: Function;
